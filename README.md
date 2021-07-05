@@ -1,6 +1,8 @@
 # tinyhome
 
-tinyhome generates a static HTML homepage via shell script.
+Tinyhome generates a static HTML homepage via shell script.
+
+Original repo bderenzo/tinyhome
 
 ## Features
 
@@ -20,7 +22,8 @@ To generate a personal dashboard:
 
 * Clone the repository and go to the created directory
 * Edit the configuration file `config.csv`
-* Generate the homepage `./tinyhome > index.html`
+* Add a default image if the one in `img/default.png` isn't suitable (big thanks to reddit user testlmao111)
+* Generate the homepage `cat tinyhome | bash > index.html`
 * Serve the page (with the css and webfonts folders) with your favorite web server
 
 ## Configuration file
@@ -37,4 +40,3 @@ section, Tools, wrench, -
 item, Status Page, heart, https://github.com/bderenzo/tinystatus
 item, Dashboard, bookmark, https://github.com/bderenzo/tinyhome
 ```
-
