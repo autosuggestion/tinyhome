@@ -24,7 +24,7 @@ To generate a personal dashboard:
 * Edit the configuration file `config.csv`
 * Add a default image if the one in `img/default.png` isn't suitable (big thanks to reddit user testlmao111)
 * Generate the homepage `cat tinyhome | bash > index.html`
-* Serve the page (with the css and webfonts folders) with your favorite web server
+* Serve the page (with the css and webfonts folders) with your favorite web server or using the docker-compose file provided
 
 ## Configuration file
 
