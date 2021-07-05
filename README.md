@@ -11,10 +11,7 @@ Original repo bderenzo/tinyhome
 * Tiny optimized result page
 * [Font Awesome](https://fontawesome.com/v5.15/icons?d=listing&p=2&s=solid&m=free) icons (solid only)
 * Dark mode
-
-## Demo
-
-An example site is available [here](https://lab.bdro.fr/tinyhome/).
+* Docker-compose file easy deployment
 
 ## Setup
 
