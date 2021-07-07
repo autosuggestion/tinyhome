@@ -11,3 +11,4 @@ services:
       - ./img:/usr/share/nginx/html/img:ro
       - ./webfonts:/usr/share/nginx/html/webfonts:ro
       - ./index.html:/usr/share/nginx/html/index.html:ro
+    restart: unless-stopped
