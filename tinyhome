@@ -25,7 +25,7 @@ itemize(){
 }
 
 cat << EOF
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><title>${title}</title><style>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="referrer" content="no-referrer"><title>${title}</title><style>
 body { font-family: segoe ui,Roboto,Oxygen-Sans,Ubuntu,Cantarell,helvetica neue,Verdana,sans-serif; }
 i { margin-right: 7px; }
 h1 { padding: 15px 0 0 0; color: #444444; text-align: center; }
